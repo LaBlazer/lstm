@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-TEXT_FEATURE_SIZE = 1600
+TEXT_FEATURE_SIZE = 160
 
 def get_feature_columns(mode):
   feature_columns = []
